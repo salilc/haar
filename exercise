@@ -1,0 +1,9 @@
+
+(2) [DISCUSSION] What data structure did you choose for your wavelet transform output? Why did you use this data
+structure?
+--> I used list and simple matrix calulations and matrix transpose to calculate the haar transform and its inverse.
+
+(3) [DISCUSSION] Why does the length of the input data need to be a power of 2? How would you preprocess input data that
+is not a length of a power of 2?
+--> The length of the input data has to be a power of 2 because of the invertibility/transform of the matrix.
+Incase of input that is not a power of 2, we can pad zeroes to the input however, the result may have redundant information.
